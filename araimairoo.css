@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/dante');
+
+:root {
+--tc-bg: white;
+--tc-txt: black;
+--tc-dsh: #888888;
+--tc-icon: url(https://i.imgur.com/skDLRiH.png) center/cover;
+}
+
+.grob {
+  width: 70%;
+  margin: auto;
+}
+.namepan {
+	width: auto;
+    background: var(--tc-bg);
+    padding: 0.5vw;
+    border-bottom: 4px dashed;
+    border-color: var(--tc-dsh);
+    transform: rotate(2deg);
+    box-sizing: border-box;
+}
+.mainp {
+    width: auto;
+    margin: auto;
+    padding: 3.7vw;
+    background: var(--tc-mpic);
+}
+.flex {
+    width: auto;
+    margin: 1vw auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.iconp {
+	width: 16%;
+    margin: auto;
+    aspect-ratio: 1 / 1;
+    background: var(--tc-ipic);
+}
+.line {
+	width: 0.1%;
+    height: auto;
+    background: var(--tc-txt);
+}
+.mbox {
+    width: 45%;
+    margin: auto;
+}
+.micon {
+    width: 7%;
+    margin: auto;
+    background: var(--tc-txt);
+    aspect-ratio: 1 / 1;
+    mask: var(--tc-icon);
+    mask-size: 100%;
+}
+.mname {
+    width: 90%;
+    margin: auto;
+    font: 1.7vw Dante;
+    text-align: center;
+    color: var(--tc-txt);
+}
+.mtxt {
+    width: auto;
+    margin: 1vw auto auto auto;
+    font: 1vw Dante;
+    color: var(--tc-txt);
+    font-weight: 300;
+}
+.smbox {
+    width: 25%;
+    margin: auto;
+}
+.barc {
+    width: auto;
+    margin: auto;
+    background: var(--tc-txt);
+    mask-image: url(https://iili.io/fzSI7Rf.png);
+    mask-size: 100%;
+    padding: 2vw;
+}
+.bctxt {
+    width: auto;
+    font: 1vw Dante;
+    color: var(--tc-txt);
+    font-weight: 300;
+    text-align: center;
+}
+.btgrob {
+    width: 69.5%;
+    
+}
+.rpbox {
+	width: 99.5%;
+    margin: 1vw auto auto auto;
+    background: var(--tc-bg);
+    padding: 2vw;
+    border-top: 4px dashed;
+    border-color: var(--tc-dsh);
+    box-sizing: border-box;
+}
+.rptxt {
+    width: auto;
+    margin: 0.7vw auto auto auto;
+    font: 1vw Bai Jamjuree;
+    color: var(--tc-txt);
+    font-weight: 300;
+}
+.rpline {
+    width: auto;
+    margin: 1.2vw auto auto auto;
+    border: 2px dashed;
+    border-color: var(--tc-dsh);
+}
+.rpnote {
+    width: auto;
+    margin: 0.7vw auto auto auto;
+    font: 1.2vw Bai Jamjuree;
+    text-align: right;
+    color: var(--tc-txt);
+}

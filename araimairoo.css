@@ -18,7 +18,7 @@
     padding: 0.5vw;
     border-bottom: 4px dashed;
     border-color: var(--tc-dsh);
-    transform: rotate(2deg);
+    transform: rotate(-2deg);
     box-sizing: border-box;
 }
 .mainp {

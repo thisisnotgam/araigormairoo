@@ -118,7 +118,7 @@
 .rpnote {
     width: auto;
     margin: 0.7vw auto auto auto;
-    font: 1.2vw Bai Jamjuree;
+    font: 1vw Bai Jamjuree;
     text-align: right;
     color: var(--tc-txt);
 }

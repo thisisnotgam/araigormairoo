@@ -70,6 +70,7 @@
     font: 1vw Dante;
     color: var(--tc-txt);
     font-weight: 300;
+	text-align: center;
 }
 .smbox {
     width: 25%;
